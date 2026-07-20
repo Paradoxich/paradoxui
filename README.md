@@ -16,8 +16,8 @@ consumed there as workspace packages. They are not yet published to npm; this
 repo is the public window into the work. Versioning, changesets, and a
 license will be settled before the first npm release.
 
-- 28 components, typed props, accessibility built in
-- 25 Storybook stories, deployed from this repo via GitHub Pages
+- 27 components, typed props, accessibility built in
+- 24 Storybook stories, deployed from this repo via GitHub Pages
 - 39 files in the Santolina app consume the library today
 
 ## The extraction rule
@@ -86,9 +86,9 @@ Full inventory:
 | --------- | -------------------------------------------------------------------------------- |
 | Actions   | Button, IconButton, Menu                                                          |
 | Inputs    | Input, SearchField, Chip, SwatchChip                                              |
-| Display   | Card (+ Header/Body/Footer), Badge, Avatar, Icon, DitheredImage, MediaCard, StatCard |
-| Layout    | Panel, Tabs, Drawer, DrawerSection, DetailRow, SeasonalStageRow                   |
-| Lists     | ChecklistItem, CompanionThumbnail                                                 |
+| Display   | Card (+ Header/Body/Footer), Badge, Avatar, Icon, DitheredImage, Thumbnail, MediaCard, StatCard |
+| Layout    | Panel, Tabs, Drawer, DrawerSection, DetailRow                                     |
+| Lists     | ChecklistItem                                                                     |
 | Feedback  | Modal, Toast (+ ToastProvider/useToast), Tooltip, Spinner, EmptyState             |
 
 Plus `cn`, the class-merging utility.

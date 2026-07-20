@@ -95,11 +95,22 @@ Plus `cn`, the class-merging utility.
 
 ## The visual language
 
-Soft and glassy: sage surfaces, translucent whites, hairline card outlines,
-soft shadows, generous radii. One typeface for everything, Public Sans,
-loaded by the tokens package itself so consumers get the real face instead of
-a silent system fallback. Hierarchy comes from size roles, weight, and color
-roles, never from switching families.
+What the Storybook shows today is Santolina's skin: sage surfaces,
+translucent whites, hairline outlines, soft shadows, generous radii, Public
+Sans throughout. That is the first theme built on the system, not the
+framework's own voice.
+
+The machinery underneath is theme-agnostic. Components only ever speak
+semantic roles, so a retheme is a re-pointing of tier 2 aliases: pour a
+different palette into the same roles and every component follows. Santolina
+is the proof that the roles can carry a complete product.
+
+The framework's own default theme is a decision still ahead, deliberately.
+Paradox UI is not a theming engine with a placeholder skin; the shipped
+default is the product, designed for people who want an expertly designed UI
+without having a designer. That default arrives with the docs site and the
+first npm release, and it will stand apart from Santolina's warm, organic
+register so the framework has its own face.
 
 ## Why build it this way
 
